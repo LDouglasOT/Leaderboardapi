@@ -11,20 +11,16 @@
     Leaderboard
     <div class="container">
         <div class="leaderboar-table">
-            <h4>Recent scores <button>Refresh</button></h4>
-            <ul class="scores">
-                <li>Name : 100</li>
-                <li>Name : 100</li>
-                <li>Name : 100</li>
-                <li>Name : 100</li>
-                <li>Name : 100</li>
-            </ul>
+            <h4>Recent scores <button class="refresh">Refresh</button></h4>
+            <div class="leaderboard">
+          
+            </div>
         </div>
         <div class="leaderboar-table">
             <h3>Add your score</h3>
          <form action="POST" class="form-submit">
-            <input type="text" placeholder="Names" name="name">
-            <input type="Number" placeholder="Score" name="score">
+            <input class="names" type="text" placeholder="Names" name="name" required>
+            <input class="score" type="Number" placeholder="Score" name="score" required>
             <button type="submit">submit</button>
          </form>
         </div>
