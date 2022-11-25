@@ -1,101 +1,242 @@
-# API TESTS: Microverse api tests project
+<a name="readme-top"></a>
 
-> In this project, you will add some functionality to your application to make it interactive. The user will also be able to mark task completion by selecting the corresponding checkbox (or undo it by unchecking the checkbox). The updated tasks list will be stored in local storage
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-![](https://img.shields.io/badge/Microverse-blueviolet).
+Modify this file to match your project and remove sections that don't apply.
 
-## Built With
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-- HTML
-- CSS
-- Javascript
-- webpack
+After you're finished please remove all the comments and instructions!
+-->
 
-## Getting Started
+<div align="center">
 
-**Clone Your Github Repository**
-Follow these steps to clone your Github repo on Windows:
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-1. Open Git Bash;
+  <h3><b>Microverse README Template</b></h3>
 
-- If Git is not already installed, it is super simple. Just go to the Git Download Folder and follow the instructions.
+</div>
 
-2. Go to the current directory where you want the cloned directory to be added;
+<!-- TABLE OF CONTENTS -->
 
-- To do this, input cd and add your folder location. You can add the folder location by dragging the folder to Git bash.
-- $ cd '/c/Users/Documents/My First Git Project'
+# 📗 Table of Contents
 
-3. Go to the page of the repository that you want to clone.
-4. Click on “Clone or download” and copy the URL.
-5. Use the git clone command along with the copied URL from earlier;
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-- $ git clone https://github.com/USERNAME/REPOSITORY
+<!-- PROJECT DESCRIPTION -->
 
-6. Press Enter;
+# 📖 Game Leaderboard <a name="about-project"></a>
 
-- $ git clone https://github.com/USERNAME/REPOSITORY
-  Cloning into Git …
-  remote: Counting objects: 13, done.
-  remote: Compressing objects: 100% (13/13), done.
-  remove: Total 13 (delta 1), reused 0 (delta 1)
-  Unpacking objects: 100% (13/13), done.
+**Game Leaderboard** is a program that posts and fetches scores from the api
 
-**Congratulations, you have created your first local clone from your remote Github repository.**
+## 🛠 Built With <a name="built-with"></a>
 
-To get a local copy up and running follow these simple example steps.
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
+    <li><a href="https://reactjs.org/">JAVASCRIPT</a></li>
+  </ul>
+</details>
+
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+
+
+- **Post new scores to the Leaderboard api**
+- **Fetch from the leaderboard api**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- Install operating system that best work for you.
-- Install the latest version of node.
-- Install your favorite Text Editor
+In order to run this project you need:
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
-1. Set-up linters in your local env
-2. Copy and paste the linter files to your local directory.
-3. The npm package manager is going to create a node_modules directory to install all of your dependencies.You shouldn't commit that directory. To avoid that, you can create a .gitignore file and add node_modules/ to it:
-4. you need to initialize npm to create package.json file
-5. run npm install --save-dev hint@6.x
+Clone this repository to your desired folder:
 
-- add hintrc
-- run npx hint .
+<!--
+Example commands:
 
-6. .stylelintrc
-7. run npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-8. run  npx stylelint "**/*.{css,scss}"
-9. eslint:
-   Run
-   npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-10. Run npx eslint .
-11. Fix linter errors.
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
 
-- IMPORTANT NOTE: feel free to research auto-correct options for Stylelint if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+### Install
 
-## Author
+Install this project with: [npm install]
 
-👤 **Luzinda Douglas**
+<!--
+Example command:
 
-- LinkedIn: [@Luzinda Douglas](https://linkedin.com/in/ldouglasot/)
+```sh
+  cd my-project
+  gem install
+```
+--->
 
-## 🤝 Contributing
+### Usage
+
+To run the project, execute the following command: [npm start]
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command: npm test
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Author1**
+
+- GitHub: [@LdouglasOT](https://github.com/LdouglasOT)
+- Twitter: [@LdouglasOT](https://twitter.com/LdouglasOT)
+- LinkedIn: [LdouglasOT](https://linkedin.com/in/LdouglasOT)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Implement refresh feature]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Our God & families
-- Microverse
-- Microverse team members for the extra help & guidance:
- 1. [ldouglasot](https://github.com/ldouglasot)
-- Microverse TSEs
+If you like this project, kindly star it
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./MIT.md) licensed.
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Micorverse for the exercise
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
