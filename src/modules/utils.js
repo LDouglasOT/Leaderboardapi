@@ -4,7 +4,7 @@ export const createNewgame=async() => {
       };
       const key=localStorage.getItem("key");
       if(key){
-          console.log(key)
+
         return key
       }
    const res = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
@@ -14,9 +14,7 @@ export const createNewgame=async() => {
         },
         body: JSON.stringify(New_game),
       });
-    console.log(res)
     const data = await res.json();
-    console.log()
     localStorage.setItem("key",data.result.substr(14, 20))
     return result.substr(14, 20)
   }
@@ -25,7 +23,6 @@ export const createNewgame=async() => {
     "user": name,
     "score": score
     }
-    console.log(data)
     const keys=localStorage.getItem("key");
     const res = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${keys}/scores/`, {
         method: 'POST',
